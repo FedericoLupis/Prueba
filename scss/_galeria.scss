@@ -1,0 +1,80 @@
+@import "_variables";
+
+.container-galeria{
+
+    .row{
+        margin: 2%;
+
+        .col-sm {
+            position: relative;
+
+            &:hover .overlay {
+                display: block;
+                background: rgba(0, 0, 0, .3);
+            }
+
+            &:hover .title {
+                top: 90px;
+            }
+                
+                
+            &:hover .button {
+                opacity: 1;
+            }
+        }
+    }
+
+    img{
+        width: 100%; 
+    }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0);
+        transition: background 0.5s ease;
+      }
+
+      .title {
+        position: absolute;
+        width: 500px;
+        left: 0;
+        top: 120px;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        z-index: 1;
+        transition: top .5s ease;
+        text-shadow: 2px 2px 8px $bg-color;
+      }
+      
+      .button {
+        position: absolute;
+        width: 500px;
+        left:0;
+        top: 180px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity .35s ease;
+        
+        a {
+            width: 200px;
+            padding: 12px 48px;
+            text-align: center;
+            color: white;
+            border: none;
+            z-index: 1;
+            background-color: $boton-color;
+
+            &:hover{
+                background-color: darken($boton-color, 5%);
+            }
+          }
+      }
+       
+}

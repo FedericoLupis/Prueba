@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-sobremi .row{
+    display: flex;
+    justify-content: center;
+}
+
+#sobremi{
+.col-sm img{
+    margin-left: 100px;
+    width: 600px;
+}
+
+.col-sm p{
+    margin: 40px;
+    padding: 40px;
+
+}
+}
+
+
+
+
+
+/*
+#sobremi .col-sm img{
+    width: 400px;
+    margin: 200px;
+    padding: 200px;
+
+    .col-sm p{
+        margin-right: 60px;
+        padding: 30px;
+        text-align: left;
+    }
+}
+
+*/
+
