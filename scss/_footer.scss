@@ -1,28 +1,42 @@
+@import "_variables";
 
-footer{
-    background-color: black;
+.container-footer{
+    background-color: $bg-color;
     width: 100%;
-    box-sizing: border-box;
-    left: 0;    
-    float: left;
+    display: flex;
+    justify-content: center;
+
 
     p{
         font-family: 'Open Sans', sans-serif;
-        color: white;
+        color: $bg-color2;
         font-size: 14px;
-        margin: 10px;
-        padding: 20px;
+        margin: 2%;
+        padding: 2%;
     }
 
-    .social-media li {
-        display: inline;
-        float: right;
-        padding: 10px;
-        margin: 10px;
+    img{
+        width: 20%;
+        margin: 2%;
     }
 
+    a{
+        display: inline-block;
+        list-style-type: none;
+        justify-content: flex-end;
+        margin: 2%;
+        padding: 2%;
+        }   
+    
+        svg {
+            color: $boton-color;
 
+            &:hover{
+                color: darken($boton-color, 5%);
+            }
+        }
 }
+
 
 
 

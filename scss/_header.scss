@@ -1,17 +1,20 @@
 @import "_variables";
 
+.header{
+    background: transparent;
+    
+    .active{
+        background: $bg-color;
+    }
+}
+
+
 .navbar {
-    background:transparent !important;
-    transition:0.75s ease;
     width: 100%;
     height: 100px ;
     display: flex;
     position: fixed;
     z-index: 100;
-
-    .scrolled {
-        background:black !important;
-    }
 
     a img{
         width: 15%;
@@ -19,8 +22,7 @@
         padding: 10px;
 
         &:hover{
-            color: black;
-            opacity: 80%;;
+            color:darken($bg-color2 , 20%);
         }
     }
 
