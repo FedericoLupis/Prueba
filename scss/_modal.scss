@@ -1,0 +1,42 @@
+@import "_variables";
+
+#workshops {
+
+    .modal-content{
+        background-color: $bg-color;
+        color: $bg-color2;
+        
+        p{
+            color: $bg-color2;
+        }
+
+        ul li{
+            color: $bg-color2; 
+        }
+    }
+
+    
+
+    #ModalWorkshop1, #ModalWorkshop2, #ModalWorkshop3{
+        margin-left: 40%;
+    }
+}
+
+#galerias{
+
+    #ModalEpecuen {
+        margin-left: 10%;
+    }
+
+    .modal-content{
+        align-items: center;
+    }
+    .modal-body{
+        padding-left: 20%;
+    }
+    .carousel{
+        width: 70%;
+    }
+}
+
+

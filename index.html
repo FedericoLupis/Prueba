@@ -44,9 +44,9 @@
 
 <body>
 <!-----------------------HEADER----------------------->
-    <header class="header">
+    <header>
 
-        <nav class="navbar navbar-expand-lg navbar-static-top" role="navigation">
+        <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
             <a class="navbar-brand" href="#Home"><img src="images/Logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,23 +76,23 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="images/Home/nubes.jpg" alt="First slide">
+                <img class="d-block w-100" src="images/Home/home.jpg" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Cursos de Fotografia</h1>
                 </div>
                 
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="Images/Galerias/Argentina.jpg" alt="Second slide">
+                <img class="d-block w-100" src="Images/Home/nubes.jpg" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Fotos para colgar</h1>
+                    <h1>Decora tu living</h1>
                 </div>
               </div>
 
               <div class="carousel-item">
-                <img class="d-block w-100" src="Images/Galerias/Croacia.jpg" alt="Third slide">
+                <img class="d-block w-100" src="Images/Galerias/Argentina.jpg" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Foto</h1>
+                    <h1>Y también tu habitación</h1>
                 </div>
               </div>
             </div>
@@ -124,27 +124,226 @@
 
                     <p class="title">Epecuen</p>
                     <div class="overlay"></div>
-                    <div class="button"><a href="#"> Ver más </a></div>
+                    <div class="button">
+                        <a href="#" data-toggle="modal" data-target="#ModalEpecuen">Ver más</a>
+                    </div>
+                    
                 </div>
+<!-----------------------------------------MODAL EPECUEN--------------------------------->
+
+<div class="modal fade" id="ModalEpecuen" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
+    <div class="royal-dialog-centered" role="document" style="width: 80%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="TituloVentanaModal">Epecuen</h4>
+                <button class="Close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+<!------------------------------------CAROUSEL MODAL ------------------------------------>  
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/Galerias/Epecuen/IMG_6771.jpg" alt="First slide">        
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6658.jpg" alt="Second slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6668.jpg" alt="Third slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6683.jpg" alt="Second slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6688.jpg" alt="Second slide">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!------------------------------------FIN CAROUSEL MODAL--------------------------------->
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------FIN MODAL EPECUEN--------------------------------->
+                
 
               <div class="col-sm">
                     <img src="Images/Galerias/Croacia.jpg" alt="Croacia">
 
                     <p class="title">Croacia</p>
                     <div class="overlay"></div>
-                    <div class="button"><a href="#"> Ver más </a></div>
+                    <div class="button">
+                        <a href="#" data-toggle="modal" data-target="#ModalCroacia">Ver más</a>
+                    </div>
                 </div>
+<!-----------------------------------------MODAL CROACIA--------------------------------->
+
+<div class="modal fade" id="ModalCroacia" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
+    <div class="royal-dialog-centered" role="document" style="width: 80%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="TituloVentanaModal">Epecuen</h4>
+                <button class="Close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+<!------------------------------------CAROUSEL MODAL ------------------------------------>  
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/Galerias/Croacia.jpg" alt="First slide">        
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Croacia/IMG_3643.jpg" alt="Second slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Croacia/IMG_3834.jpg" alt="Third slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Croacia/IMG_4194.jpg" alt="Second slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Croacia/IMG_4655.jpg" alt="Second slide">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!------------------------------------FIN CAROUSEL MODAL--------------------------------->
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------FIN MODAL CROACIA--------------------------------->                
               
               <div class="col-sm">
                     <img src="Images/Galerias/Hungria.jpg" alt="Hungria">
 
                     <p class="title">Budapest</p>
                     <div class="overlay"></div>
-                    <div class="button"><a href="#"> Ver más </a></div>
+                    <div class="button">
+                        <a href="#" data-toggle="modal" data-target="#ModalEpecuen">Ver más</a>
+                    </div>
                 </div>
 
             </div>
+<!-----------------------------------------MODAL BUDAPEST--------------------------------->
 
+<div class="modal fade" id="ModalEpecuen" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
+    <div class="royal-dialog-centered" role="document" style="width: 80%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="TituloVentanaModal">Epecuen</h4>
+                <button class="Close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+<!------------------------------------CAROUSEL MODAL ------------------------------------>  
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/Galerias/Epecuen/IMG_6771.jpg" alt="First slide">        
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6658.jpg" alt="Second slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6668.jpg" alt="Third slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6683.jpg" alt="Second slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Images/Galerias/Epecuen/IMG_6688.jpg" alt="Second slide">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!------------------------------------FIN CAROUSEL MODAL--------------------------------->
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------FIN MODAL BUDAPEST--------------------------------->
             <div class="row">
 
                 <div class="col-sm">
@@ -152,7 +351,9 @@
 
                     <p class="title">Londres</p>
                     <div class="overlay"></div>
-                    <div class="button"><a href="#"> Ver más </a></div>
+                    <div class="button">
+                        <a href="#" data-toggle="modal" data-target="#ModalEpecuen">Ver más</a>
+                    </div>
                 </div>
 
                 <div class="col-sm">
@@ -160,14 +361,18 @@
                     
                     <p class="title">Rumania</p>
                     <div class="overlay"></div>
-                    <div class="button"><a href="#"> Ver más </a></div>
+                    <div class="button">
+                        <a href="#" data-toggle="modal" data-target="#ModalEpecuen">Ver más</a>
+                    </div>
                 </div>
 
                 <div class="col-sm">
                     <img src="Images/Galerias/Turquia.jpg" alt="Turquia">
                     <p class="title">Estambul</p>
                     <div class="overlay"></div>
-                    <div class="button"><a href="#"> Ver más </a></div>
+                    <div class="button">
+                        <a href="#" data-toggle="modal" data-target="#ModalEpecuen">Ver más</a>
+                    </div>
                 </div>
             </div>
         </div>     
@@ -188,7 +393,7 @@
                     <h3 class="title">Micro Stock</h3>
                     <div class="overlay"></div>
                     <div class="button">
-                        <a href="VentanaModal" data-toggle="modal" data-target="#VentanaModal">Ver más</a>
+                        <a href="#" data-toggle="modal" data-target="#ModalWorkshop1">Ver más</a>
                     </div>
              
                 
@@ -199,19 +404,34 @@
                     </p>
 
 
-                    <div class="modal fade" id="#VentanaModal" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
-                        <div class="royal-dialog" role="document">
+                    <div class="modal fade" id="ModalWorkshop1" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
+                        <div class="modal-dialog-centered modal-sm" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h4 class="TituloVentanaModal">Requisitos</h4>
-                                    <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
         
                                 <div class="modal-body">
-                                    <p>Modal 1
-                                    </p>
+
+                                    <div class="row">
+                                        <p>
+                                            Tener conocimientos básicos de fotografía
+                                            tales como:                                         
+                                        </p>
+                                        <ul>
+                                            <li>Profundidad de Campo</li>
+                                            <li>Velocidad de Obturación</li>
+                                            <li>Modos y Zonas de Enfoque</li>
+                                            <li>Fotómetro y Medición de luz</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
                         </div>
@@ -222,23 +442,19 @@
 
                 <h3 class="title">Nocturna</h3>
                 <div class="overlay"></div>
-                <div class="button"><a href="#"> Ver más </a></div>
-                        <!-- REFERENCIA PARA VENTANA MODAL
-                         <button class="btn btn-success" data-toggle="modal" data-target="#VentanaModal2">
-                            Ver más
-                        </button>
-                        -->
-                    
-
-             
+                <div class="button">
+                    <a href="#" data-toggle="modal" data-target="#ModalWorkshop2">Ver más</a>
+                </div>             
                 <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Consectetur voluptatibus velit quasi ab non quidem eum in nostrum 
-                maxime molestias ipsum quibusdam molestiae est mollitia nisi 
-                praesentium ipsam, vero magnam?
+                    En este curso, te explicaré los fundamentos y técnicas  
+                    para crear los distintos tipos de fotografía nocturna, 
+                    dependiendo del momento del día y de la condición de luz que haya. 
+                    Realizarás fotos con tiempos de exposición mayores 
+                    a los utilizados en tomas diurnas y 
+                    verás las posibilidades que ofrece el light painting.
                 </p>
-                <div class="modal fade" id="#VentanaModal2" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
-                    <div class="royal-dialog" role="document">
+                <div class="modal fade" id="ModalWorkshop2" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
+                    <div class="modal-dialog-centered modal-sm" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h4 class="TituloVentanaModal">Requisitos</h4>
@@ -248,8 +464,23 @@
                             </div>
     
                             <div class="modal-body">
-                                <p>Modal 2
-                                </p>
+                                <div class="row">
+                                    <p>Se precisan conocimientos básicos del manejo de una cámara en modo manual, 
+                                        es decir, entendiendo términos como:
+                                    </p>  
+                                        <ul>
+                                            <li>tiempo de exposición</li>
+                                            <li>diafragma</li>
+                                            <li>ISO</li>
+                                            <li>balance de blancos</li>
+                                        </ul>
+
+                                        <p>En cuanto a materiales necesitarás:</p>
+                                        <ul>
+                                            <li>trípode</li>
+                                            <li>un ordenador con Adobe Photoshop</li>
+                                        </ul>
+                                </div>  
                             </div>
                         </div>
                     </div>
@@ -260,7 +491,9 @@
 
                 <h3 class="title">Paisaje y Naturaleza</h3>
                 <div class="overlay"></div>
-                <div class="button"><a href="#"> Ver más </a></div>
+                <div class="button">
+                    <a href="#" data-toggle="modal" data-target="#ModalWorkshop3">Ver más</a>
+                </div>
 
                 
                 <p>
@@ -269,8 +502,8 @@
                 resultado final.
                 También te llevarás un apunte con un resumen de todo lo visto.
                 </p>
-            <div class="modal fade" id="#VentanaModal3" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
-                <div class="royal-dialog" role="document">
+            <div class="modal fade" id="ModalWorkshop3" tabindex="-1" role="dialog" aria-labelledby="tituloventana" aria-hidden="true" >
+                <div class="modal-dialog-centered modal-sm" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h4 class="TituloVentanaModal">Requisitos</h4>
@@ -280,8 +513,23 @@
                         </div>
 
                         <div class="modal-body">
-                            <p>Modal 2
-                            </p>
+                            <div class="row">
+                                <p>Se precisan conocimientos básicos del manejo de una cámara en modo manual, 
+                                    es decir, entendiendo términos como:
+                                </p>  
+                                    <ul>
+                                        <li>tiempo de exposición</li>
+                                        <li>diafragma</li>
+                                        <li>ISO</li>
+                                        <li>Profundidad de Campo</li>
+                                        <li>balance de blancos</li>
+                                    </ul>
+
+                                    <p>En cuanto a materiales necesitarás:</p>
+                                    <ul>
+                                        <li>trípode</li>
+                                    </ul>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -656,128 +904,7 @@
         </div>                
   </div>
 </div>
-  
 
-            <div class="Board">
-                <!--
-                <div class="row">
-                    <div class="col-sm">
-                        <img src="Images/shop/IMG_2951-2.jpg" alt="Workshop fotografía de microstock">
-
-                    <div class="title">asdasda</div>
-                    <div class="overlay"></div>
-                    <div class="button">
-                        <a href="VentanaModal" data-toggle="modal" data-target="#VentanaModal"><i class="bi bi-arrows-fullscreen"></i></a>
-                    </div>
-             
-                        <div class="select-check"><p>tamaño:</p></div>
-                    <form>
-                        <div class="checks">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">43 x 33 cm</label>
-                                                            
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">65 x 55 cm</label>
-                                                            
-                            </div>
-                        </div>   
-                        <div class="buy-cart">
-                            <div class="button"><a href="#"> Comprar </a></div>
-                            <div class="button">
-                                <a href="#"> +
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div> 
-                    </form>
-                                    
-                    </div>
-
-                    <div class="col-sm" style="max-height: 200px;">
-                        <div class="card" style="width: 18rem;">
-                        <img class="img-thumbnail" src="Images/Shop/IMG_3643.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="Images/Shop/IMG_2951-2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="Images/Shop/IMG_2951-2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="Images/Shop/IMG_2951-2.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                        </div>    
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="Images/Shop/IMG_2951-2.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="Images/Shop/IMG_2951-2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="Images/Shop/IMG_2951-2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="Images/Shop/IMG_2951-2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-            -->
-            </div>
-        </div>
-    </div> 
 </section>
 
 <!--------------------ABOUT---------------------->
@@ -885,7 +1012,21 @@
 
 <!--Scrip para navbar que cambia de color-->
 
-    <script>
+<!-- opcion 1
+<script>
+        
+    $(function () {
+    $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+    });
+</script>
+-->
+
+
+    <!-- opcion 2 
+        <script>
         const header = document.querySelector('.header');
             window.onscroll=function(){
                 var top = window.screenY;
@@ -898,6 +1039,8 @@
                 }
             }
     </script>
+    -->
+    
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

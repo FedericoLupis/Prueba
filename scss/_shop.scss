@@ -12,11 +12,8 @@
       margin: 2%;
   }
 
-
   svg {
-        color: $bg-color2;
-
-      
+        color: $bg-color2;     
       }
   
 /*Checks tamaño*/
@@ -26,6 +23,7 @@
 
 label{
   width: 100%;
+  font-size: 14px;
   display: inline-block;
   border: none;
   background-color: $bg-color2;
@@ -66,7 +64,7 @@ color: $bg-color2;
       text-decoration: none;
     }
   }
-  font-size: 16px;
+  font-size: 14px;
   background-color: $boton-color;
   border: none ;
   border-radius: 0px;
@@ -75,7 +73,7 @@ color: $bg-color2;
   cursor: pointer;
 
   &:hover{
-      font-size: 16px;
+      font-size: 14px;
       background-color: darken($boton-color, 5%);
       border: none ;
       border-radius: 0px;

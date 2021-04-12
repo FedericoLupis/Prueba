@@ -9,8 +9,9 @@
     }
 }
 h1{
+    left: 0;
     margin-bottom: 500px;
-    padding: 100px;
+    padding: 10%;
     font-size: 60px;
     font-weight: bold;
     text-shadow: 2px 2px 8px $bg-color;
@@ -28,5 +29,10 @@ h2{
 h3{
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
+}
+
+h4{
+    font-size: 18px;
     text-align: center;
 }
